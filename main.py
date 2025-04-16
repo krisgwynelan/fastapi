@@ -24,7 +24,7 @@ class BookOut(BookCreate):
     id: int
 
     class Config:
-        from_attributes = True  # Use 'from_attributes' instead of 'orm_mode' in FastAPI v2
+        from_attributes = True 
 
 @app.get("/")
 def read_root():
